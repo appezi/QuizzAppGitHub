@@ -10,7 +10,7 @@
 import Foundation
 
 class Question {
-    
+    //SetsUpTHeQuestions
     let questionText : String
     let answer : Int
     let optionA: String

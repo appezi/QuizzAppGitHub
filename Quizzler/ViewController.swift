@@ -8,7 +8,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
       var audioPlayer : AVAudioPlayer!
     
-    //Place your instance variables here
+    //Change This Variable Based on Quiz
     let allQuestions = QuestionBank()
     var pickedAnswer : Int = 0
     //var correctAnswer : Bool = false

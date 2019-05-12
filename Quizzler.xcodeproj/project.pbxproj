@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153DDEE22288C49800C36489 /* OverwatchLoreQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DDEE12288C49800C36489 /* OverwatchLoreQuiz.swift */; };
 		633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646BE1B8C657400FF45E2 /* AppDelegate.swift */; };
 		633646C11B8C657400FF45E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633646C01B8C657400FF45E2 /* ViewController.swift */; };
 		633646C61B8C657400FF45E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633646C51B8C657400FF45E2 /* Images.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153DDEE12288C49800C36489 /* OverwatchLoreQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLoreQuiz.swift; sourceTree = "<group>"; };
 		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				C17208C3227D61EE008899B2 /* Question.swift */,
 				C17208C5227D729C008899B2 /* QuestionBank.swift */,
+				153DDEE12288C49800C36489 /* OverwatchLoreQuiz.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				C17208C6227D729C008899B2 /* QuestionBank.swift in Sources */,
 				C17208CC227D9842008899B2 /* ProgressHUD.m in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
+				153DDEE22288C49800C36489 /* OverwatchLoreQuiz.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

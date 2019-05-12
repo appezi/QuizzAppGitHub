@@ -116,12 +116,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         if correctAnswer == pickedAnswer
         {
             score += 1
-            ProgressHUD.showSuccess("Correct!")
+            ProgressHUD.showSuccess("Good Job!")
         }
         else
         {
             print("Incorrect")
-            ProgressHUD.showError("Wrong!")
+            ProgressHUD.showError("Incorrect")
         }
         
         

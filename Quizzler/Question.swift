@@ -12,11 +12,17 @@ import Foundation
 class Question {
     
     let questionText : String
-    let answer : Bool
+    let answer : Int
+    let optionA: String
+    let optionB: String
+    let optionC: String
     
-    init(text: String, correctAnswer : Bool) {
+    init(text: String, correctAnswer : Int, option1: String, option2: String, option3: String) {
         questionText = text
         answer = correctAnswer
+        optionA = option1
+        optionB = option2
+        optionC = option3
     }
     
     

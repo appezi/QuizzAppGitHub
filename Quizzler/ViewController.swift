@@ -10,17 +10,22 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     //Place your instance variables here
     let allQuestions = QuestionBank()
-    var pickedAnswer : Bool = false
+    var pickedAnswer : Int = 0
     //var correctAnswer : Bool = false
     var questionNumber: Int = 0
     var score : Int = 0
+    
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var progressBar: UIView!
     @IBOutlet weak var progressLabel: UILabel!
     
+    @IBOutlet weak var option1Button: UIButton!
     
+    @IBOutlet weak var option2Button: UIButton!
+    
+    @IBOutlet weak var option3Button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,11 +39,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         if sender.tag == 1
         {
-            pickedAnswer = true
+            pickedAnswer = 1
+        }
+        else if sender.tag == 2
+        {
+            pickedAnswer = 2
         }
         else
         {
-            pickedAnswer = false
+         pickedAnswer = 3
         }
         
       /*  if pickedAnswer == correctAnswer {
@@ -60,16 +69,24 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func updateUI() {
-        progressLabel.text = "\(questionNumber+1)/13"
-        scoreLabel.text = "Score: \(score)/13"
-        progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber+1)
+        let numberOfQuestions : CGFloat = CGFloat(allQuestions.numberOfQuestions)
+        progressLabel.text = "\(questionNumber+1)/\(allQuestions.numberOfQuestions)"
+        scoreLabel.text = "Score: \(score)/\(allQuestions.numberOfQuestions)"
+        progressBar.frame.size.width = (view.frame.size.width / numberOfQuestions) * CGFloat(questionNumber+1)
         
      
     }
     
     func nextQuestion() {
-        if questionNumber < 13 {
+        
+        
+        if questionNumber < allQuestions.numberOfQuestions {
+            option1Button.setTitle(allQuestions.list[questionNumber].optionA, for: .normal)
+            option2Button.setTitle(allQuestions.list[questionNumber].optionB, for: .normal)
+            option3Button.setTitle(allQuestions.list[questionNumber].optionC, for: .normal)
+            
             questionLabel.text = allQuestions.list[questionNumber].questionText
+            
             updateUI()
         }
             

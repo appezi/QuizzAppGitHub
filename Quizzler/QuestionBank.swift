@@ -32,6 +32,7 @@ class QuestionBank{
          correctAnswer: This must = the correct option(option1,option2,option3)
          option1,2,3: These are what the 3 buttons will show option one is the top one
          
+         //Make Sure That the Question Number = The Amount of Questions or Else the App Will Crash
          
          */
         list.append(Question(text: "What two heroes have a long history with each other", correctAnswer: 1, option1: "Genji & Hanzo", option2: "Genji & Mai", option3: "Tracer & Lucio"))

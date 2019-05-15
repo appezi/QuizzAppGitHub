@@ -64,7 +64,7 @@ class OverwatchLoreQuiz{
         
         list.append(Question(text: "What hero was a double agent to overwatch?", correctAnswer: 1, option1: "Widowmaker", option2: "Reaper", option3: "Doomfist", gifName: "Test1"))
         
-        list.append(Question(text: "What is tracer’s real name?", correctAnswer: 2, option1: "Jane Johnson", option2: "Lena Oxton", option3: "Brie Scarlett", gifName: "Test2"))
+        list.append(Question(text: "What is Tracer’s real name?", correctAnswer: 2, option1: "Jane Johnson", option2: "Lena Oxton", option3: "Brie Scarlett", gifName: "Test2"))
         
         list.append(Question(text: "What hero was employed by Overwatch to find the cause of the planets changing climate?", correctAnswer: 1, option1: "Mei", option2: "Mercy", option3: "Bation", gifName: "Test3"))
         

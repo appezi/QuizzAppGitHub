@@ -19,6 +19,7 @@
 		C17208CC227D9842008899B2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C17208C9227D9842008899B2 /* ProgressHUD.m */; };
 		C17208CE227D9A6C008899B2 /* note1 copy.wav in Resources */ = {isa = PBXBuildFile; fileRef = C17208CD227D9A6C008899B2 /* note1 copy.wav */; };
 		C185A678228C247C000E63B4 /* Test.gif in Resources */ = {isa = PBXBuildFile; fileRef = C185A677228C247B000E63B4 /* Test.gif */; };
+		C185A67A228C2BB3000E63B4 /* Test2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C185A679228C2BB3000E63B4 /* Test2.gif */; };
 		C1BFF381228C2304004ACF74 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFF380228C2304004ACF74 /* Swift+Gif.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		C17208CA227D9842008899B2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		C17208CD227D9A6C008899B2 /* note1 copy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "note1 copy.wav"; sourceTree = "<group>"; };
 		C185A677228C247B000E63B4 /* Test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Test.gif; sourceTree = "<group>"; };
+		C185A679228C2BB3000E63B4 /* Test2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Test2.gif; sourceTree = "<group>"; };
 		C1BFF380228C2304004ACF74 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 		633646BB1B8C657400FF45E2 /* Quizzler */ = {
 			isa = PBXGroup;
 			children = (
+				C185A679228C2BB3000E63B4 /* Test2.gif */,
 				C185A677228C247B000E63B4 /* Test.gif */,
 				EBB1C72D1B946C580011F5C3 /* Controller */,
 				EBB1C72C1B946C530011F5C3 /* Model */,
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C185A67A228C2BB3000E63B4 /* Test2.gif in Resources */,
 				C17208CB227D9842008899B2 /* ProgressHUD.bundle in Resources */,
 				ADEB04ED1FBDFEAA00026359 /* Main.storyboard in Resources */,
 				C185A678228C247C000E63B4 /* Test.gif in Resources */,

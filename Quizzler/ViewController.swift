@@ -34,7 +34,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
        nextQuestion()
         //correctAnswer = firstQuestion.answer
         
-        gifView.loadGif(name: "Test")
+        
   
     }
 
@@ -78,6 +78,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         scoreLabel.text = "Score: \(score)/\(allQuestions.numberOfQuestions)"
         progressBar.frame.size.width = (view.frame.size.width / numberOfQuestions) * CGFloat(questionNumber+1)
         
+        
      
     }
     
@@ -90,6 +91,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             option3Button.setTitle(allQuestions.list[questionNumber].optionC, for: .normal)
             
             questionLabel.text = allQuestions.list[questionNumber].questionText
+            gifView.loadGif(name: allQuestions.list[questionNumber].gif)
             
             updateUI()
         }

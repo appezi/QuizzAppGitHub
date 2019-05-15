@@ -20,6 +20,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var progressBar: UIView!
     @IBOutlet weak var progressLabel: UILabel!
+    @IBOutlet weak var gifView: UIImageView!
     
     @IBOutlet weak var option1Button: UIButton!
     
@@ -32,6 +33,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
        nextQuestion()
         //correctAnswer = firstQuestion.answer
+        
+        gifView.loadGif(name: "Test")
+  
     }
 
 

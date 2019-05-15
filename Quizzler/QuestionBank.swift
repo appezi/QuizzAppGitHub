@@ -11,7 +11,7 @@ import Foundation
 class QuestionBank{
     
     var list = [Question]()
-    let numberOfQuestions = 14
+    let numberOfQuestions = 20
     
     init()
     {
@@ -63,9 +63,29 @@ class QuestionBank{
         
         list.append(Question(text: "Bastion was voiced by...", correctAnswer: 2, option1: "Google", option2: " Chris Metzen", option3: "Alexa"))
         
+        list.append(Question(text: "What hero was a double agent to overwatch?", correctAnswer: 1, option1: "Widowmaker", option2: "Reaper", option3: "Doomfist"))
+        
+        list.append(Question(text: "What is tracer’s real name?", correctAnswer: 2, option1: "Jane Johnson", option2: "Lena Oxton", option3: "Brie Scarlett"))
+        
+        list.append(Question(text: "What hero was employed by Overwatch to find the cause of the planets changing climate?", correctAnswer: 1, option1: "Mei", option2: "Mercy", option3: "Bation"))
+        
+        list.append(Question(text: "How many heroes are in Overwatch up to June 2019? ", correctAnswer: 1, option1: "21", option2: "25", option3: "20"))
+        
+        list.append(Question(text: "What hero is Torbjorn’s daughter?", correctAnswer: 2, option1: "Tracer", option2: "Brigitte", option3: "Widowmaker"))
+        
+        list.append(Question(text: "How many people have bought Overwatch?", correctAnswer: 3, option1: "30m+", option2: "40m+", option3: "35m+"))
+        
+        
+        
+        
+        
+        
+        
         list.shuffle()
         
     }
+    
+
     
     
 }

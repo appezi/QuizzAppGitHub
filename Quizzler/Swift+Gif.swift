@@ -3,7 +3,7 @@
 //  Quizzler
 //
 //  Created by Jehiel Pather on 15/5/19.
-//  Copyright © 2019 London App Brewery. All rights reserved.
+//  Copyright © 2019 Reverse Games. All rights reserved.
 //
 
 import UIKit

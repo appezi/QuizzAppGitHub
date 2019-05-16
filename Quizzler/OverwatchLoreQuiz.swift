@@ -80,7 +80,6 @@ class OverwatchLoreQuiz{
         
         
         
-        list.shuffle()
     }
     
 }

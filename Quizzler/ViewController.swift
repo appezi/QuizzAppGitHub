@@ -6,7 +6,7 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-      var audioPlayer : AVAudioPlayer!
+    var audioPlayer : AVAudioPlayer!
     
     //Change This Variable Based on Quiz
     let allQuestions = QuestionBank()

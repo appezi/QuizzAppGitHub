@@ -75,12 +75,6 @@ class QuestionBank{
         
         list.append(Question(text: "How many people have bought Overwatch?", correctAnswer: 2, option1: "30m+", option2: "40m+", option3: "35m+", gifName: "Test3"))
         
-        
-        
-        
-        
-        
-        
         list.shuffle()
     }
     

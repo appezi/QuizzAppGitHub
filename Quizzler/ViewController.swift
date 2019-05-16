@@ -6,7 +6,7 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    var audioPlayer : AVAudioPlayer!
+
     
     //Change This Variable Based on Quiz
     let allQuestions = QuestionBank()
@@ -27,6 +27,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var option2Button: UIButton!
     
     @IBOutlet weak var option3Button: UIButton!
+    
+    var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()

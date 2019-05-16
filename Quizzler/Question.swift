@@ -16,14 +16,19 @@ class Question {
     let optionA: String
     let optionB: String
     let optionC: String
+    let gif : String
+
     
-    init(text: String, correctAnswer : Int, option1: String, option2: String, option3: String) {
+    init(text: String, correctAnswer : Int, option1: String, option2: String, option3: String, gifName : String) {
         questionText = text
         answer = correctAnswer
         optionA = option1
         optionB = option2
         optionC = option3
+        gif = gifName
     }
+    
+
     
     
 }
